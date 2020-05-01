@@ -1,0 +1,49 @@
+.container-1{
+    border: 3px solid black;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    background-color: rebeccapurple;
+}
+
+.flex-box-container-1{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+.flex-box-container-1 div, .flex-box-container-2 div{
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.container-2{
+    border: 3px solid black;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    background-color: lightslategray;
+}
+
+.flex-box-container-2{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+.flex-box-container-2 img{
+    margin: 10px; 
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
